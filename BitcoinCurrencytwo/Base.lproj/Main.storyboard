@@ -21,15 +21,15 @@
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="PRICE" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hy0-Rn-Lgn">
                                 <rect key="frame" x="0.0" y="417" width="414" height="112"/>
                                 <fontDescription key="fontDescription" style="UICTFontTextStyleTitle1"/>
-                                <nil key="textColor"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="252" misplaced="YES" image="iconfinder_Asset_1480_3363592" translatesAutoresizingMaskIntoConstraints="NO" id="M3D-jB-Ywh">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="252" misplaced="YES" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="M3D-jB-Ywh">
                                 <rect key="frame" x="67" y="38" width="280" height="371"/>
                             </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
-                        <color key="backgroundColor" red="0.56078431370000004" green="0.85098039219999999" blue="0.6588235294" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" red="0.10196078431372549" green="0.12941176470588234" blue="0.18823529411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="hy0-Rn-Lgn" secondAttribute="trailing" id="5H6-rR-G0p"/>
                             <constraint firstItem="hy0-Rn-Lgn" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="7PP-Pz-5XI"/>
@@ -57,6 +57,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="iconfinder_Asset_1480_3363592" width="512" height="371"/>
+        <image name="logo" width="540" height="264"/>
     </resources>
 </document>

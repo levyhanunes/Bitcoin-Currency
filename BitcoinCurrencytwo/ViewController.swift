@@ -53,6 +53,10 @@ UIPickerViewDataSource {
         var url = "https://apiv2.bitcoinaverage.com/indices/global/ticker/BTC\(curruncies[row])"
                fetchData(url: url)
     }
+    func pickerView(_ pickerView: UIPickerView, attributedTitleForRow row: Int, forComponent component: Int) -> NSAttributedString? {
+        return NSAttributedString(string: curruncies[row], attributes: [NSAttributedString.Key.foregroundColor: UIColor.white])
+    }
+    
 
     func fetchData(url: String) {
         
